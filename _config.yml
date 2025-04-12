@@ -3,16 +3,14 @@ email: rakshav@umich.edu
 description: >-
   Applied Scientist | Speech AI | Deep Learning | Researcher
 
-url: "https://raksha.github.io"
-baseurl: ""  # Do not change
+url: "https://rakshasv18.github.io"
+baseurl: ""
 
-# Use remote Minimal Mistakes theme (hosted version)
 remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache
 
-# Enable custom pages and navigation
 collections:
   pages:
     output: true
@@ -24,17 +22,48 @@ defaults:
     values:
       layout: single
 
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+
 # Navigation bar
-nav:
+navigation:
   - title: "About Me"
     url: /about/
   - title: "Publications"
     url: /publication/
   - title: "Research and Projects"
     url: /projects/
-  - title: "Blog"
-    url: /blog/
   - title: "Travel and Life"
     url: /travel/
   - title: "Contact Me"
     url: /contact/
+  - title: "Blog"
+    url: /blog/
+
+# Author info
+author:
+  name: Raksha Varahamurthy
+  avatar: /assets/images/profile.jpg
+  bio: Applied Scientist | Speech AI | Deep Learning
+
+# Optional settings
+disqus:
+  shortname: "raksha-site"
+
+# Social (optional, add links later)
+social:
+  type: Person
+  name: Raksha Varahamurthy
+  links:
+    - https://github.com/rakshasv18
+    - mailto:rakshav@umich.edu
+
+# Theme settings (optional customization)
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
