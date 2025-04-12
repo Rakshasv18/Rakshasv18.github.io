@@ -1,7 +1,7 @@
 ---
-title: "About Me"
-permalink: /about/
 layout: single
+title: "About"
+permalink: /about/
 ---
 
-Hello 
+Your About Me content goes here.
