@@ -36,30 +36,19 @@ defaults:
 
 # Navigation bar
 navigation:
-  - title: "Curriculum"
-    url: /curriculum/
-  - title: "Blog"
-    url: /blog/
-  - title: "Articles"
-    url: /articles/
+  - title: "About"
+    url: /about/
   - title: "Projects"
     url: /projects/
+  - title: "Blog"
+    url: /blog/
   - title: "Publications"
     url: /publication/
-  - title: "Readings"
-    url: /readings/
   - title: "Life"
     url: /life/
-  - title: "Essay"
-    url: /essay/
-  - title: "Archives"
-    url: /archives/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "FAQs"
-    url: /faqs/
+  - title: "Contact"
+    url: /contact/
+
 
 
 # Sidebar settings
