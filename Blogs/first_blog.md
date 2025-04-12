@@ -1,8 +1,10 @@
 ---
-layout: home
-title: "Blog"
-permalink: /blog/
+title: "Unlearning Speaker Identity in Speech Synthesis"
+layout: single
+date: 2024-04-11
+author_profile: true
 ---
 
-Welcome to my blog. I write about Speech AI, Deep Learning, and Applied Research!
+This is my first blog post under a custom collection!
+
 
