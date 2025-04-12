@@ -1,7 +1,7 @@
----
+  ---
+layout: single
 title: "Publications"
 permalink: /publication/
-layout: single
 ---
 
 ## 📚 Research Publications
@@ -14,3 +14,7 @@ layout: single
 - **Open Source Contribution**:  
   [Coqui TTS Issue #3541](https://github.com/coqui-ai/TTS/issues/3541)  
   Worked on improving multilingual speaker unlearning within TTS pipelines.
+
+
+
+
