@@ -1,7 +1,8 @@
 ---
-title: "About Me"
-permalink: /about/
-layout: single
+layout: home
+title: "Blog"
+permalink: /blog/
 ---
 
-Hello 
+Welcome to my blog. I write about Speech AI, Deep Learning, and Applied Research!
+
