@@ -2,7 +2,10 @@
 layout: default
 title: "Raksha Varahamurthy"
 permalink: /
+header:
+  nav: "main"
 ---
+
 
 <style>
 .home-layout {
