@@ -18,12 +18,30 @@ collections:
     output: true
     permalink: /:collection/:name/
 
+# Enable navigation to show in both top header and sidebar
+navigation:
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "Publications"
+    url: /publication/
+  - title: "Travel"
+    url: /life/
+  - title: "Contact"
+    url: /contact/
+
+# Display custom nav links at the top of every page
 defaults:
   - scope:
       path: ""
       type: pages
     values:
       layout: single
+      header:
+        nav: "navigation"
 
   - scope:
       path: "_posts"
@@ -32,21 +50,12 @@ defaults:
       layout: single
       author_profile: true
 
-# Navigation links in the top navbar
-header_pages:
-  - _pages/about.md
-  - _pages/projects.md
-  - _pages/blog.md
-  - _pages/publication.md
-  - _pages/life.md
-  - _pages/contact.md
-
-# Sidebar settings
+# Sidebar settings (optional)
 sidebar:
   nav: "navigation"
   sticky: true
 
-# Author profile settings
+# Author profile
 author:
   name: Raksha Varahamurthy
   avatar: /assets/images/profile.jpg
@@ -62,12 +71,12 @@ author:
       icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/raksha"
 
-# Markdown and syntax highlighting settings
+# Markdown and highlighting
 highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Comments and analytics (optional)
+# Disqus for blog comments (optional)
 disqus:
   shortname: "raksha-site"
