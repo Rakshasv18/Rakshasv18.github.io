@@ -12,8 +12,9 @@ plugins:
   - jekyll-include-cache
 
 collections:
-  pages:
+  blogs:
     output: true
+
 
 defaults:
   - scope:
