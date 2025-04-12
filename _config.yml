@@ -6,7 +6,8 @@ description: >-
 url: "https://rakshasv18.github.io"
 baseurl: ""
 
-remote_theme: "mmistakes/minimal-mistakes"
+# 👇 Use the local theme now instead of remote
+theme: "minimal-mistakes-jekyll"
 
 plugins:
   - jekyll-include-cache
@@ -18,7 +19,22 @@ collections:
     output: true
     permalink: /:collection/:name/
 
-# Enable navigation to show in both top header and sidebar
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      header:
+        nav: "main"
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+
+# ✅ Main top navbar
 navigation:
   - title: "About"
     url: /about/
@@ -33,29 +49,12 @@ navigation:
   - title: "Contact"
     url: /contact/
 
-# Display custom nav links at the top of every page
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      header:
-        nav: "navigation"
-
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-
 # Sidebar settings (optional)
 sidebar:
-  nav: "navigation"
+  nav: "main"
   sticky: true
 
-# Author profile
+# Author profile info
 author:
   name: Raksha Varahamurthy
   avatar: /assets/images/profile.jpg
@@ -77,6 +76,6 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-# Disqus for blog comments (optional)
+# Disqus comments (optional)
 disqus:
   shortname: "raksha-site"
