@@ -18,8 +18,6 @@ collections:
     output: true
     permalink: /:collection/:name/
 
-
-
 defaults:
   - scope:
       path: ""
@@ -34,29 +32,21 @@ defaults:
       layout: single
       author_profile: true
 
-# Navigation bar
-navigation:
-  - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
-  - title: "Blog"
-    url: /blog/
-  - title: "Publications"
-    url: /publication/
-  - title: "Travel"
-    url: /life/
-  - title: "Contact"
-    url: /contact/
-
-
+# Navigation links in the top navbar
+header_pages:
+  - _pages/about.md
+  - _pages/projects.md
+  - _pages/blog.md
+  - _pages/publication.md
+  - _pages/life.md
+  - _pages/contact.md
 
 # Sidebar settings
 sidebar:
   nav: "navigation"
   sticky: true
 
-# Author settings
+# Author profile settings
 author:
   name: Raksha Varahamurthy
   avatar: /assets/images/profile.jpg
@@ -72,7 +62,7 @@ author:
       icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/raksha"
 
-# Markdown and highlighting
+# Markdown and syntax highlighting settings
 highlighter: rouge
 markdown: kramdown
 kramdown:
