@@ -4,12 +4,15 @@ description: >-
   Applied Scientist | Speech AI | Deep Learning | Researcher
 
 url: "https://raksha.github.io"
-baseurl: ""
-theme: minimal-mistakes-jekyll
+baseurl: ""  # Do not change
+
+# Use remote Minimal Mistakes theme (hosted version)
+remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache
 
+# Enable custom pages and navigation
 collections:
   pages:
     output: true
@@ -21,6 +24,7 @@ defaults:
     values:
       layout: single
 
+# Navigation bar
 nav:
   - title: "About Me"
     url: /about/
@@ -32,4 +36,3 @@ nav:
     url: /travel/
   - title: "Contact Me"
     url: /contact/
-
