@@ -31,39 +31,45 @@ defaults:
 
 # Navigation bar
 navigation:
-  - title: "About Me"
+  - title: "About"
     url: /about/
+  - title: "Projects"
+    url: /projects/
   - title: "Publications"
     url: /publication/
-  - title: "Research and Projects"
-    url: /projects/
-  - title: "Travel and Life"
-    url: /travel/
-  - title: "Contact Me"
-    url: /contact/
   - title: "Blog"
     url: /blog/
+  - title: "Contact"
+    url: /contact/
 
-# Author info
+# Sidebar settings
+sidebar:
+  nav: "navigation"
+  sticky: true
+
+# Author settings
 author:
   name: Raksha Varahamurthy
   avatar: /assets/images/profile.jpg
   bio: Applied Scientist | Speech AI | Deep Learning
-
-# Optional settings
-disqus:
-  shortname: "raksha-site"
-
-# Social (optional, add links later)
-social:
-  type: Person
-  name: Raksha Varahamurthy
+  location: Ann Arbor, MI
   links:
-    - https://github.com/rakshasv18
-    - mailto:rakshav@umich.edu
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/rakshasv18"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:rakshav@umich.edu"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/raksha"
 
-# Theme settings (optional customization)
+# Markdown and highlighting
 highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
+
+# Comments and analytics (optional)
+disqus:
+  shortname: "raksha-site"
