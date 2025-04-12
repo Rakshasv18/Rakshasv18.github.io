@@ -1,3 +1,29 @@
+# title: Raksha Varahamurthy
+# show_download: true
+# theme: jekyll-theme-minimal
+
 title: Raksha Varahamurthy
-show_download: true
+description: Applied Scientist | Speech AI | Deep Learning | Researcher
 theme: jekyll-theme-minimal
+show_downloads: true
+logo: /assets/profile.png  # Optional: Replace with your actual image file
+
+# Custom navigation links
+navigation:
+  - title: About Me
+    url: /about
+  - title: Publication
+    url: /publication
+  - title: Research and Project
+    url: /projects
+  - title: Travel and Life
+    url: /travel
+  - title: Contact Me
+    url: /contact
+
+# Social media (optional)
+github_username: raksha
+email: rakshav@umich.edu
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
