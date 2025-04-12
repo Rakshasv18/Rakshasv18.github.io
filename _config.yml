@@ -12,8 +12,12 @@ plugins:
   - jekyll-include-cache
 
 collections:
-  blogs:
+  pages:
     output: true
+  Blogs:
+    output: true
+    permalink: /:collection/:name/
+
 
 
 defaults:
