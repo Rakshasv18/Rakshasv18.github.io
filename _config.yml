@@ -6,11 +6,9 @@ description: >-
 url: "https://rakshasv18.github.io"
 baseurl: ""
 
-# Use local theme instead of remote_theme
-# remote_theme: "mmistakes/minimal-mistakes"
 theme: "minimal-mistakes-jekyll"
 
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "air"  # Light theme with macOS-style vibes
 
 plugins:
   - jekyll-include-cache
